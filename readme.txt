@@ -77,4 +77,3 @@ This is first release.
 = 1.0 =
 
 * A intial version.
-
