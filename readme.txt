@@ -1,4 +1,4 @@
-=== WP Custom Post Template ===
+=== WP Custom Post Template === 
 Contributors: dswpsupport
 Tags: post template, custom template for post, wp custom post template, custom post type, custom template, post from template, posts, templates, custom post template, custom theme template, simple post templates, single post templates, template, theme template, wordpress post template, wp post template
 Requires at least: 3.0
