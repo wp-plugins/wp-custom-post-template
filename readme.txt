@@ -2,7 +2,7 @@
 Contributors: dswpsupport
 Tags: post template, custom template for post, wp custom post template, custom post type, custom template, post from template, posts, templates, custom post template, custom theme template, simple post templates, single post templates, template, theme template, wordpress post template, wp post template
 Requires at least: 3.0
-Tested up to: 3.8
+Tested up to: 3.9
 Donate link: 
 Stable tag: 2.1
 License: GPLv2 or later
