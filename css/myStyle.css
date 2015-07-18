@@ -24,7 +24,7 @@
     margin-top: 10px;
     width: 260px;
 }
-.note_summry{font-style:italic;}
+.note_summry{font-style:italic; float: left;}
 
 .msgText {
     margin-left: -2px!important;

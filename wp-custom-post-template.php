@@ -82,8 +82,12 @@ function wp_custom_post_template_meta_box($post) {
 }?>
 <?php 
 function wp_get_post_custom_templates() {
-  $themes = get_themes();
-  $theme = get_current_theme();
+  if(function_exists('wp_get_themes')){
+		$themes = wp_get_themes();
+	}else{
+		$themes = get_themes();
+	}			
+	$theme = get_option( 'template' );
   $templates = $themes[$theme]['Template Files'];
   $post_templates = array();
 
@@ -134,9 +138,11 @@ function wp_get_custom_post_template_for_template_loader($template) {
   $post = $wp_query->get_queried_object();
   if ($post) {
     $post_template = get_post_meta($post->ID,'_post_template',true);
+
     if (!empty($post_template) && $post_template!='default')
       $template = get_stylesheet_directory() . "/{$post_template}";
   }
+  
   return $template;
 }
 ?>
